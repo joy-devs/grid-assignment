@@ -1,0 +1,96 @@
+
+body{
+    background-color:beige;
+}
+.container{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-gap: 20px;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.kira{
+   grid-row: span 2;
+}
+.daniel{
+    grid-column: span 2;
+ }
+ .patrick{
+    grid-column: span 2;
+ }
+
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: inline-flex;
+}
+.daniel{
+    border: 1px solid rgb(19, 19, 171);
+    background-color: rgb(26, 26, 201);
+    padding: 20px;
+    border-radius: 10px;
+}
+.dan {
+    display: inline;
+}
+
+.daniel h4{
+    color: grey;
+}
+.jonathan{
+    border: 1px solid grey;
+    background-color: grey;
+    padding: 20px;
+    border-radius: 10px;
+}
+.jonathan h4{
+    color: grey;
+}
+.kira{
+    border: 1px solid purple;
+    background-color: purple;
+    padding: 20px;
+    border-radius: 10px;
+}
+.jeanette{
+    border: 1px solid navy ;
+    background-color: navy;
+    padding: 20px;
+    border-radius: 10px;
+}
+.patrick{
+    border: 1px solid black;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+.patrick p {
+    color: grey;
+}
+.patrick h4{
+    color: black;
+}
+.responsive{
+    min-width: 100%;
+  }
+  .container{
+     min-width: 100%;
+     width:100%;
+  }
+ @media only  screen and (max-width: 768px) {
+   body {
+    display: block;
+    padding: auto;
+
+   }
+   .container{
+    display: block;
+    grid-gap: 20px;
+    padding: 20px;
+ }
+
+ }
+    
+ 
